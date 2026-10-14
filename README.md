@@ -25,14 +25,13 @@ MelodyAI is an AI-powered music generation web application that transforms text 
 
 ## ⚙️ Installation and Setup
 
+
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd MelodyAI
+git clone https://github.com/cshyam26/CodeAlpha_MelodyAI.git
+cd CodeAlpha_MelodyAI
 ```
-
-Replace `YOUR_GITHUB_REPOSITORY_URL` with the actual repository URL.
 
 ### 2. Create a virtual environment
 
