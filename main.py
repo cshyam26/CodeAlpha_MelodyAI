@@ -127,8 +127,10 @@ def main():
     )
 
     # Starting notes for the melody
-    seed = [60, 64, 67, 72] * 8
-
+    seed = random.choices(
+    [60, 62, 64, 65, 67, 69, 71, 72],
+    k=32
+)
     generated_notes = generate_melody(model, seed, length=100)
     output_path = os.path.join(OUTPUT_DIR, "generated_melody.mid")
 

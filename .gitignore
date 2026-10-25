@@ -1,31 +1,46 @@
 
-# Python cache and virtual environments
-__pycache__/
-*.py[cod]
+# Python environment
 .venv/
 venv/
 env/
 
-# Environment variables and secrets
-.env
-.env.*
-!.env.example
+# Python cache
+__pycache__/
+*.py[cod]
 
-# Generated audio
-outputs/
-*.wav
-*.mp3
-*.flac
-
-# Model checkpoints and downloaded weights
-*.pt
+# Model checkpoints
 *.pth
+*.pt
 *.ckpt
 *.safetensors
 models/
 checkpoints/
 
+# Generated audio and MIDI
+outputs/
+*.wav
+*.mp3
+*.mid
+*.midi
+
+# Secrets and environment variables
+.env
+
 # Editor and OS files
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Local Python environment and cache
+.venv/
+__pycache__/
+
+# Generated outputs
+outputs/
+*.wav
+*.mp3
+*.mid
+*.midi
+
+# Local secrets
+.env
